@@ -1,0 +1,21 @@
+caption {
+    font-weight: bolder;
+    font-size: 24px;
+    border-bottom: 1px solid;
+    margin: 0 0 10px 0;
+}
+table {
+    font-size: 20px;
+    border-collapse: collapse;
+}
+th, td {
+    border: 1px solid rgb(0, 0, 0);
+    margin: 0;
+    padding: 5px;
+}
+.weekend {
+    color: red;
+}
+.empty_slot {
+    background-color: rgb(156, 156, 156);
+}
