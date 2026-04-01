@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=form, initial-scale=1.0" />
+    <title>Домашнее задание 4</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <form>
+      <fieldset>
+        <legend>Ваши личные данные</legend>
+        <label>
+          Ваше имя
+          <input
+            type="text"
+            inputmode="text"
+            name="name"
+            placeholder="Сергей"
+            required
+          />
+        </label>
+        <label>
+          Ваш возраст
+          <input
+            type="number"
+            inputmode="numeric"
+            name="age"
+            placeholder="20"
+            required
+          />
+        </label>
+        <label>
+          Ваш номер телефона
+          <input
+            type="tel"
+            inputmode="tel"
+            name="phone-number"
+            placeholder="8(999)-999-99-99"
+            required
+          />
+        </label>
+        <label>
+          Ваша почта
+          <input
+            type="email"
+            inputmode="email"
+            name="email"
+            placeholder="exaple@gmail.com"
+            required
+          />
+        </label>
+        <label>
+          Сообщение
+          <textarea
+            name="info"
+            inputmode="text"
+            placeholder="Ваше сообщение"
+            required
+          ></textarea>
+        </label>
+        <label>
+          <input
+            class="checkbox"
+            name="privacy-police"
+            type="checkbox"
+            required
+          />
+          <span>Я принимаю правила</span>
+        </label>
+        <button>Отправить</button>
+      </fieldset>
+    </form>
+  </body>
+</html>

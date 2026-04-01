@@ -1,0 +1,35 @@
+form {
+    max-width: 600px;
+}
+fieldset {
+    border-radius: 10px;
+    border-color: gray;
+}
+legend {
+    font-weight: bolder;
+    font-size: 24px;
+}
+input{
+    border-radius: 10px;
+    display: block;
+    border-color: gray;
+}
+textarea {
+    border-radius: 10px;
+    display: block;
+    min-width: 50%;
+    max-width: 500px;
+}
+.checkbox {
+    display: inline ;
+    margin-top: 15px;
+}
+button {
+    display: block;
+    border-radius: 25px;
+    border: none;
+    padding: 10px 25px;
+    margin-top: 15px;
+    background-color: rgba(136, 136, 136, 0.356);
+    cursor: pointer;
+}
